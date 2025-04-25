@@ -38,3 +38,41 @@ python -m venv venv
 venv\Scripts\activate
 # Linux/macOS:
 source venv/bin/activate
+```
+# Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+System Requirements
+Component	Minimum Version
+LibreOffice	7.0
+Python	3.8
+RAM	2 GB
+Disk Space	500 MB
+## 🛠️ Building from Source
+```bash
+# Clone repository
+git clone https://github.com/yourusername/document-extractor.git
+cd document-extractor
+
+# Set up environment
+python -m venv venv
+source venv/bin/activate  # Linux/macOS
+venv\\Scripts\\activate     # Windows
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run application
+python main.py
+```
+## ⚠️ Troubleshooting
+```bash
+# Verify LibreOffice installation
+soffice --version
+
+# Add to PATH if needed (Linux/macOS)
+export PATH=$PATH:/usr/lib/libreoffice/program
+```
+
+
