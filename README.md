@@ -6,7 +6,7 @@
 
 A modern GUI application for extracting pages from PDF and Word documents, with multiple export options and beautiful thumbnails preview.
 
-![App Preview]([https://raw.githubusercontent.com/FahadAkash/Document-Extractor-App/refs/heads/main/view/appview.png)) <!-- Add actual screenshot later -->
+![App Preview](https://raw.githubusercontent.com/FahadAkash/Document-Extractor-App/refs/heads/main/view/appview.png) <!-- Add actual screenshot later -->
 
 ## ✨ Features
 
