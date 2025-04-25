@@ -1,0 +1,19 @@
+# Core Python Dependencies
+PyQt5>=5.15.4          # For GUI framework
+PyMuPDF>=1.22.2         # PDF handling (fitz module)
+python-docx>=0.8.11     # DOCX file handling (if adding DOCX editing features)
+Pillow>=10.0.0          # Image processing (PIL)
+
+# Optional/System Requirements (not installable via pip)
+# -----------------------------------------------
+# 1. LibreOffice - For DOC/DOCX to PDF conversion
+#    Download: https://www.libreoffice.org/
+#    Required for Word document conversion feature
+
+# 2. Microsoft Windows/Linux/macOS
+#    - Windows: Tested on Windows 10/11
+#    - Linux: Requires X11 display server for GUI
+#    - macOS: Requires Xquartz for display
+
+# 3. Fonts
+#    - Segoe UI font (or other system fonts)
